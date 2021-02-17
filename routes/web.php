@@ -7,6 +7,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [LandingController::class, 'index'])->name('landing');
 Route::get('/register', [RegisterController::class, 'index'])->name('register');
+Route::get('/designer', [LandingController::class, 'designer'])->name('designer');
+Route::get('/designer/details', [LandingController::class, 'designerDetails'])->name('designer-details');
+
+
 require __DIR__.'/auth.php';
 
 

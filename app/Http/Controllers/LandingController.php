@@ -9,4 +9,12 @@ class LandingController extends Controller
     public function index(Request $request){
         return view('landing.index');
     }
+
+    public function designer(Request $request){
+        return view('landing.designer');
+    }
+
+    public function designerDetails(Request $request){
+        return view('landing.designer-details');
+    }
 }

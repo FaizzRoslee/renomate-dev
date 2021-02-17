@@ -88,7 +88,8 @@
                 <div class="navbar-nav ml-auto">
                     <a class="nav-link scroll line" href="#slider">Home</a>
                     <a class="nav-link scroll line" href="#about">About</a>
-                    <a class="nav-link scroll line" href="#portfolio">Designs</a>
+{{--                    <a class="nav-link scroll line" href="#portfolio">Designs</a>--}}
+                    <a class="nav-link" href="{{ route('designer') }}">Designer</a>
                     <a class="nav-link scroll line" href="#contact">Contact</a>
                     <a class="nav-link" href="{{ route('register') }}">Register</a>
                     <a class="nav-link" href="{{ route('login') }}">Login</a>
@@ -126,8 +127,11 @@
                     <li class="nav-item">
                         <a class="nav-link scroll" href="#about">About</a>
                     </li>
+{{--                    <li class="nav-item">--}}
+{{--                        <a class="nav-link scroll" href="#portfolio">Designs</a>--}}
+{{--                    </li>--}}
                     <li class="nav-item">
-                        <a class="nav-link scroll" href="#portfolio">Designs</a>
+                        <a class="nav-link" href="{{ route('designer') }}">Designer</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link scroll" href="#contact">Contact</a>
